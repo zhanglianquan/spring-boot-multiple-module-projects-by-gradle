@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DemoApplication<module1>",
+            "request": "launch",
+            "mainClass": "com.zlq.module1.DemoApplication",
+            "projectName": "module1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DemoApplication<module2>",
+            "request": "launch",
+            "mainClass": "com.zlq.module2.DemoApplication",
+            "projectName": "module2"
+        }
+    ]
+}
