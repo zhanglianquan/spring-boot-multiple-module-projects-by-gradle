@@ -1,0 +1,8 @@
+pluginManagement {
+	repositories {
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'gradle-multiple-module-for-vs-code'
+include 'module1'
+include 'module2'

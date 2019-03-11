@@ -1,0 +1,44 @@
+
+buildscript {
+		ext {
+			springbootVersion = '2.1.3.RELEASE'
+		}
+		repositories {
+			mavenCentral()
+			
+		}
+		dependencies {
+        	
+    	}
+}
+
+
+subprojects {
+	buildscript {
+		ext {
+			springbootVersion = '2.1.3.RELEASE'
+		}
+		repositories {
+			mavenCentral()
+		}
+		dependencies {
+        	
+    	}
+	}
+
+	apply plugin: 'java'
+	apply plugin: 'maven'
+
+	group = 'com.zlq'
+	version = '1.0.0'
+	description = """"""
+
+	sourceCompatibility = 1.8
+	targetCompatibility = 1.8
+
+	tasks.withType(JavaCompile) {
+		options.encoding = 'UTF-8'
+	}
+	dependencies {
+	}
+}
